@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="portugues">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body> <h1>
+    imagens que se adaptam nos sites
+</h1>
+    <h2>
+        basta usar a tag < picture > e dentro dela colocar a tag "img"
+        colocando as imagens em ORDEM para ela se adaptar de forma correta. Dentro dela usar a tag < source media type > e selecionar o tamanho max da imagem com alguma folga e a outra tag < srcset  > serve para colocar a prox imagem que irá aparecer após diminuir ou aumentar a página ( todas a imagens tem que possuir um nome sem espaço, caso contrário não riá funcionar) o "type" deve ser colocado no respectivo formato da imagem (img png etc) Lembrando que a tag "source media type" deve ser usada em ordem para não ocorrer um possível erro.
+    
+    </h2>
+    <br>ex: 
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Semtítulo.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/semtitulo2.png" type="image/png">
+        <img src="imagens/Semtítulo3.png" alt="imagem flexível">
+    </picture>
+
+</body>
+</html>
