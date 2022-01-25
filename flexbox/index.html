@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando flex-box</title>
+
+     <style>
+         *{
+             margin:0% ;
+         }
+            body{
+                background-color: maroon;
+            }
+            header {
+                text-align: center;
+                color: aliceblue;
+                font-family: sans-serif;
+                padding: 50px;
+                
+            }
+   
+            
+            aside{
+                padding: 10px;
+                background-color: aliceblue;
+                display: flex; 
+                flex-wrap: wrap; 
+                max-width: 800px;
+                min-width: 320px;
+                margin: 0 auto 30px auto;  
+            }
+            img {    
+             
+              flex: 1 1 200px;
+              max-width: 800px;
+              min-width: 320px;
+              margin: 10px;
+            }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>
+           FOTOGRAFIA
+        </h1>
+       
+    </header>
+    <main>
+        <section>
+       
+             
+        </section>
+    </main>
+    <aside>
+         <img src="imagens/foto1.jpg" alt=""><img src="imagens/foto2.jpg" alt=""><img src="imagens/foto3.jpg" alt=""><img src="imagens/foto4.jpg" alt=""><img src="imagens/foto5.jpg" alt="">
+         <img src="imagens/foto7.jpg" alt="">
+    </aside>
+</body>
+</html>
