@@ -1,0 +1,102 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    
+}
+/*  no body coloquei um display flex para conseguir usar os atributos do flex. o flex wrap serve pra ter uma quebra de linha quando o conteudo for espremido. o justify-content serve pra aliinhar o conteudo.*/
+body{
+    background-image: url(imagens/pexels-leah-kelley-952594.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    
+    
+ 
+   
+}
+
+header{
+  background-color: orangered;
+  
+  padding: 10px;
+  width: 100%;
+ 
+  
+   
+    
+    
+}
+header > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav > a { 
+    border-radius: 5px;
+    width: 60px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.274);
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+
+main{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin: 10px;
+    width: 400px;
+    padding: 10px; 
+    border-radius: 10px;
+    text-align: justify;
+  
+}
+aside {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 400px;
+    margin: 10px;
+    padding: 10px; 
+    border-radius: 10px;
+    text-align: justify;
+   
+}
+
+
+   /*@media para delimitar até onde um determinado evento aconteça. No caso o display flex com a quebra do wrap.*/
+   @media (max-width:600px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+      
+      
+      
+    }
+    header {
+        width: 100%;
+        
+    }
+    nav > a {
+        display: block;
+        width: max-content;
+        margin: 10px;
+    }
+      }
+    footer{
+        color:  white;
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+   
