@@ -1,0 +1,62 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+
+}
+
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image:linear-gradient(to right, #1B191C, #C8417C);
+}
+
+header{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.527)  5px 5px 10px;
+}
+#apresentacao {
+    margin-top: 10px;
+    text-align: justify;
+    color: #c04077;
+}
+main > #foto{
+    display: block;
+    margin: auto;
+    border-radius: 50%;    
+}
+main{
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.37) ;
+    padding: 10px;
+    margin: auto;
+    max-width: 500px;
+    min-width: 320px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+main > p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+a:hover{
+    color: #C8417C;
+   
+    
+}
+#contato{
+    margin: 10px;
+ 
+}
+.icone{
+    margin-left: 1.1%;
+}
+
+
